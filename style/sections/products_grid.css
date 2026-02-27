@@ -1,0 +1,44 @@
+
+.chuse_car {
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.chuse_car .cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.card_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card_text2 {
+    display: flex;
+    align-items: center;
+    gap: 253px;
+}
+
+.card_text4 .p1 {
+    color: var(--purpule);
+}
+
+.card_text5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+
+.allAtts{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+}

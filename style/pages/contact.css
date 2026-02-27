@@ -1,0 +1,121 @@
+@import url(../main.css);
+
+.hero {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero_text3 {
+    display: flex;
+    align-items: center;
+}
+
+.bokk_car {
+    min-height: 660px;
+    max-width: 1300px;
+    border-radius: 40px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 78px;
+}
+
+.bokk_car2 {
+    width: 36%;
+    background-color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.bokk_car2 select {
+    appearance: none;
+    padding: 9px 16px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    width: 90%;
+    background-image: url("https://static.thenounproject.com/png/2169315-200.png");
+    background-size: 16px 16px;
+    background-repeat: no-repeat;
+    background-position-x: calc(100% - 16px);
+    background-position-y: 10px;
+}
+
+.bokk_car2 form {
+    width: 300px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 20px;
+    gap: 20px;
+    background-color: var(--purpule);
+
+}
+
+.date {
+    width: 90%;
+    height: 38px;
+    border-radius: 12px;
+    border: 0;
+    outline: 0;
+    background-position-x: calc(100% - 16px);
+    background-position-y: 10px;
+}
+
+.date label {
+    padding: 9px 16px;
+    background-color: #FAFAFA;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.date label input {
+    border: 0;
+    width: 19px;
+}
+
+.bokk_car3-img {
+    width: 100%;
+}
+
+
+
+.contacts {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 60px 72px;
+}
+
+.contacts img {
+    width: 40px;
+    height: 40px;
+}
+
+
+.new_posts3 {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

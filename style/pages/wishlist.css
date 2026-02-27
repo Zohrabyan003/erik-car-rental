@@ -1,0 +1,38 @@
+@import url(../main.css);
+
+.chuse_car {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 72px;
+}
+
+.chuse_car .cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.card_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card_text2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.card_text5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+.card_img img{
+width: 100%;
+}

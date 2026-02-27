@@ -1,0 +1,65 @@
+.infinit_logo_slider img {
+  display: block;
+
+}
+
+.infinit_logo_slider {
+  overflow: hidden;
+  max-width: 1300px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.infinit_logo_slider::before {
+  content: "";
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(90deg, rgb(255, 255, 255) 8%, rgba(202, 108, 230, 0) 100%);
+}
+
+.infinit_logo_slider::after {
+  content: "";
+  width: 25%;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 1;
+  background: linear-gradient(-90deg, rgb(255, 255, 255) 8%, rgba(202, 108, 230, 0) 100%);
+}
+
+.slider {
+  display: flex;
+  width: 200%;
+  animation: bannermove 20s linear infinite;
+}
+
+
+.row {
+  width: 100%;
+}
+
+.infinit_logo_slider ul {
+  display: flex;
+  list-style-type: none;
+  padding: 60px 40px;
+  margin: 0;
+}
+
+.infinit_logo_slider li {
+  width: 100%;
+}
+
+@keyframes bannermove {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}

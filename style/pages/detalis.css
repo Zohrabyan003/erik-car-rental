@@ -1,0 +1,67 @@
+@import url(../main.css);
+
+.single-product {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 1300px;
+    margin: 0 auto;
+}
+
+.product-info {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    gap: 30px !important;
+}
+
+.product-details {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 40px;
+    width: 49% !important;
+}
+
+.product-gallery {
+    width: 49%;
+}
+
+.product-info {
+    display: grid !important;
+    grid-template-columns: repeat(3, 1fr) !important;
+    grid-template-rows: repeat(2, 1fr) !important;
+    grid-column-gap: 30px !important;
+    grid-row-gap: 30px !important;
+
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 24px;
+    gap: 20px;
+    width: 196px;
+    height: 148px;
+    background: #FAFAFA;
+    border-radius: 12px;
+}
+
+.equipments {
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+
+}
+
+.equipment {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+}

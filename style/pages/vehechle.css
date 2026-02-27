@@ -1,0 +1,81 @@
+@import url(../main.css);
+
+h1 {
+    text-align: center;
+    font-family: url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+}
+
+.select_car_categoria {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.car {
+    width: 70px;
+    height: 20px;
+    border-radius: 25px;
+    border: 0;
+    transition: 0.2s;
+    cursor: pointer;
+}
+
+.car:hover {
+    background-color: var(--purpule);
+    color: var(--white);
+}
+
+.Al_cars {
+    background-color: var(--purpule);
+    color: var(--white);
+}
+
+.chuse_car {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 72px;
+}
+
+.chuse_car .cars {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+    grid-row-gap: 24px;
+}
+
+.card_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 40px;
+
+}
+
+.card_text2 {
+    display: flex;
+    align-items: center;
+
+}
+
+.card_text5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.card_img img {
+    width: 100%;
+}
+
+.loadMore {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purpule);
+    color: var(--white);
+}

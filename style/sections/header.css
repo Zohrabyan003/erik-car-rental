@@ -1,0 +1,142 @@
+header {
+  width: 100%;
+  padding: 0 20px;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.175);
+  z-index: 9999;
+}
+
+header .box {
+  max-width: 1300px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+header .logo span {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: var(--black);
+}
+
+header .nav {
+  display: flex;
+  gap: 40px;
+}
+
+header .logo {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+}
+
+header .nav a {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  color: var(--black);
+  text-decoration: none;
+
+}
+
+header .nav a.active-page {
+  font-weight: bold;
+}
+
+
+
+
+
+
+
+
+/* ---------------------------hamburrger----------------- */
+
+
+button {
+  width: 30px;
+  background-color: transparent;
+  border: 0;
+  cursor: pointer;
+}
+
+button img {
+  width: 100%;
+}
+
+#humburger {
+  display: none;
+}
+
+#humburger nav {
+  position: absolute;
+  width: 100%;
+  bottom: -348px;
+  left: 0;
+  background-color: rgb(0, 0, 0);
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+  transition: 0.3s ease;
+}
+
+nav a {
+  text-decoration: none;
+  text-transform: capitalize;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 10px;
+  color: white;
+}
+
+@media (max-width: 1024px) {
+
+  .contact{
+    display: none;
+  }
+  #humburger {
+    display: block !important;
+  }
+
+  .nav {
+    display: none !important;
+  }
+}
+
+@media (max-width: 1260px) {
+  header {
+    padding: 20px;
+  }
+}
+
+#humburger[data-direction="top-bottom"][data-open="false"] nav {
+  transform: scaley(0);
+}
+
+#humburger[data-direction="top-bottom"][data-open="true"] nav {
+  transform: scaley(1);
+}
+
+#humburger[data-direction="top-bottom"] nav {
+  transform-origin: top;
+}
+
+#humburger[data-direction="right-left"] nav {
+  transform-origin: right;
+}
+
+#humburger[data-direction="right-left"][data-open="false"] nav {
+  transform: scalex(0);
+}
+
+#humburger[data-direction="right-left"][data-open="true"] nav {
+  transform: scalex(1);
+}

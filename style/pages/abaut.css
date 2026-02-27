@@ -1,0 +1,190 @@
+@import url(../main.css);
+
+.hero {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.hero_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero2_text {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 72px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.hero_text3 {
+    display: flex;
+    align-items: center;
+}
+
+.hero2_text3 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.baner2 {
+    max-width: 1300px;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(/images/hero\ bgr5.png);
+    background-repeat: no-repeat;
+}
+
+.baner2-img {
+    width: 80px;
+    height: 80px;
+}
+
+.counter2 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 120px;
+}
+
+.counter2-text {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.counter2-text h1 {
+    color: var(--purpule);
+}
+
+.info-block {
+    max-width: 1300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.info-block-text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.info-block-text4 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 20px;
+}
+
+.info-block-text5 {
+    display: flex;
+    align-items: center;
+}
+
+
+
+.reviews {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 72px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 60px 72px;
+    gap: 40px;
+}
+
+.reviews2 {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+}
+
+.review-text2 {
+    border-radius: 20px;
+    text-align: center;
+    background-color: var(--purpule);
+    color: var(--white);
+}
+
+.box_faq{
+    text-align: center;
+}
+
+.faqs {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    padding: 40px;
+    border: 2px solid #ADB5BD;
+    border-radius: 20px;
+
+}
+.faq .content{
+    transition: .3s ease;
+    overflow: hidden;
+}
+.faq[data-open="open"] .content {
+    max-height: 500px;
+}
+
+.faq[data-open="close"] .content {
+    max-height: 0px;
+}
+
+.baner3 {
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 60px 72px;
+    display: flex;
+    align-items: center;
+    background-image: url(/images/hero\ bgr8.png);
+    background-repeat: no-repeat;
+    background-color: var(--purpule);
+    border-radius: 20px;
+
+}
+
+.baner3_text {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 24px;
+    color: var(--white);
+
+}
+
+.baner3_img {
+    width: 100%;
+}
+
+.baner3_img img {
+    width: 100%;
+}

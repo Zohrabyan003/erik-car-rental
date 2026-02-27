@@ -1,0 +1,69 @@
+@import url(/style/main.css);
+
+.posts_sections{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 50px;
+}
+
+.posts {
+    max-width: 1300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    grid-row-gap: 20px;
+}
+
+.post {
+    width: 350px;
+    background: var(--white);
+    padding: 20px 20px;
+    border-radius: 14px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.post:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 14px 35px rgba(0, 0, 0, 0.12);
+}
+
+.post_img img {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.post_text {
+    padding: 16px;
+}
+
+.read_more {
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+
+}
+
+.loadmore {
+    max-width: 1300px;
+    margin: 0 auto;
+    width: 100px;
+    height: 50px;
+    border-radius: 20px;
+    padding: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--purpule);
+    color: var(--white);
+
+}

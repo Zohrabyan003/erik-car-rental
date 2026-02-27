@@ -1,0 +1,25 @@
+@import url(../main.css);
+
+
+.login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+form {
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+form input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    
+}
