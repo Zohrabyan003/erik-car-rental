@@ -1,0 +1,7 @@
+@media (max-width:1024px){
+    .single-product{
+        justify-content: center;
+        flex-direction: column;
+        gap: 50px;
+    }
+}
